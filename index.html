@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>DeMarco Portfolio</title>
+  <title>Jenna DeMarco | Portfolio</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,16 +19,137 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alike&family=Open+Sans&display=swap" rel="stylesheet">
   <meta name="theme-color" content="#fafafa">
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
 </head>
 
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <header> <!---The header text is in front of the picture.-->
+    <div class="full-width"> 
+        <div class="half-width">
+            <h1>Jenna DeMarco</h1>
+        </div>
+        <div class="half-width">
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>   
+            </nav>
+        </div>
+    </div>
+      <h2><span>Hi,</span> I'm a Front End Developer who loves clean &amp; elegant code. </h2>
+  </header>
+  <main>
+    <section id="about">
+      <div class="full-width">
+        <div class="half-width">
+          <!--UPDATE PICTURE-->
+          <img src= ".//img/profile1.JPG" id="profile-img" alt="Jenna DeMarco profile picture"/>
+        </div>
+        <div class="half-width">
+          <h2>A little bit about me.</h2>
+            <p> I am a highly organized and efficient individual who likes systems and understanding how they work so that I can be creative and solve problems within them.</p>
+            <p> I found myself drawn towards coding because of its structure and flow. I enjoy taking chaos and making it ordered and pleasing to the eye.</p>
+            <p> I love stories—whether shared in person, in film, or in books. I also enjoy a good hike and exploring new places.</p>
+      </div>
+    </section>
+
+    <section id="Skills">
+      <div class="full-width">
+        <h3>Skills</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>APIs</li>
+            <li>ES6</li>
+            <li>JSX</li>
+          </ul> 
+      </div>
+      <div>
+        <h3>Tools</h3>
+          <ul>
+            <li>FTP Client</li>
+            <li>CodeSandbox</li>
+            <li>GitHub</li>
+            <li>Virtual Studio Code</li>
+          </ul>
+      </div>
+    </section>
+
+    <section id="Projects">
+      <div class="full-width">
+        <div class="third-width">
+          <img src=".//img/A. Super Sticky Notes.JPG" alt="sticky note project preview" src>
+          <h3>Title1</h3> 
+            <p>Description</p>
+            <p>Skills</p>
+            <p>Tools</p>
+            <button>Button</button>
+        </div>
+        <div class="third-width">
+          <img src=".//img/B. Unplugged.JPG" alt="unplugged preview" src>
+          <h3>Title2</h3> 
+            <p>Description</p>
+            <p>Skills</p>
+            <p>Tools</p>
+            <button>Button</button>
+        </div>
+        <div class="third-width">
+          <img src=".//img/C. GitHub Repo Gallery.JPG" alt="GitHub Repo Gallery project preview" src>
+          <h3>Title3</h3> 
+            <p>Description</p>
+            <p>Skills</p>
+            <p>Tools</p>
+            <button>Button</button>
+        </div>
+        <div class="half-width">
+          <img src=".//img/D. Guess the Word.JPG" alt="Guess the Word project preview" src>
+          <h3>Title4</h3> 
+            <p>Description</p>
+            <p>Skills</p>
+            <p>Tools</p>
+            <button>Button</button>
+        </div>
+        <div class="half-width">
+          <img src=".//img/E. Name Tag Generator.JPG" alt="Name Tag Generator project preview" src>
+          <h3>Title5</h3> 
+            <p>Description</p>
+            <p>Skills</p>
+            <p>Tools</p>
+            <button>Button</button>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="full-width">
+          <div class="half-width">
+              <h2>Interested in connecting?</h2>
+              <h3 id="email-header">Let's chat! </h3>
+              <a href="mailto:letsconnect@jennademarco.co">letsconnect@jennademarco.co</a>
+              <h3 id="socialmedia-header">Or, find me here:</h3>
+                  <ul>
+                      <p>LinkedIn</p>
+                      <script src=" www.linkedin.com/in/jennademarco"></script>
+                      <p>GitHub</p>
+                      <script src="https://github.com/jennademarco"></script>
+                  </ul>
+          </div>
+      </div>
+    /footer>
+  </main> 
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
@@ -37,5 +158,5 @@
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
-
+  
 </html>
