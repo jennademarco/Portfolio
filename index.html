@@ -35,133 +35,136 @@
 
   <!-- Add your site or application content here -->
   <header> <!---The header text is in front of the picture.-->
-    <div class="full-width"> 
-        <div class="half-width">
-            <h1>Jenna DeMarco</h1>
-        </div>
-        <div class="half-width">
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>   
-            </nav>
-        </div>
+    <div class="content-wrapper"> 
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>   
+      </nav>
+      <div class="home-title">
+        <h1>Hi there, I'm Jenna DeMarco!</h1>
+        <h2>I'm a Front End Developer who loves clean &amp; elegant code.</h2>
+      </div>
     </div>
-      <h2><span>Hi,</span> I'm a Front End Developer who loves clean &amp; elegant code. </h2>
   </header>
   <main>
-    <section id="about">
-      <div class="full-width">
-        <div class="half-width">
-          <img src= ".//img/profile1.JPG" id="profile-img" alt="Jenna DeMarco profile picture"/>
+    <article>
+      <section id="about">
+        <div class="content-wrapper">
+          <div class="about-content-wrapper">
+            <figure>
+              <img src= ".//img/profile1.JPG" id="profile-img" alt="Jenna DeMarco profile picture"/>
+            </figure>
+            <div class="about-info">
+              <h3>A little bit about me.</h3>
+              <h2>I am a highly organized and efficient individual who likes systems and understanding how they work so that I can be creative and solve problems within them.</h2>
+              <p class="about-text">I found myself drawn towards coding because of its structure and flow. I enjoy taking chaos and making it ordered and pleasing to the eye. I love stories—whether shared in person, in film, or in books. I also enjoy a good hike and exploring new places.</p>
+            </div>
+          </div>
         </div>
-        <div class="half-width">
-          <h2>A little bit about me.</h2>
-            <p> I am a highly organized and efficient individual who likes systems and understanding how they work so that I can be creative and solve problems within them.</p>
-            <p> I found myself drawn towards coding because of its structure and flow. I enjoy taking chaos and making it ordered and pleasing to the eye.</p>
-            <p> I love stories—whether shared in person, in film, or in books. I also enjoy a good hike and exploring new places.</p>
-      </div>
-    </section>
-    <section id="skills">
-      <div class="full-width">
-        <h3>Skills</h3>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>APIs</li>
-            <li>ES6</li>
-            <li>JSX</li>
-          </ul> 
-      </div>
-      <div>
-        <h3>Tools</h3>
-          <ul>
-            <li>FTP Client</li>
-            <li>CodeSandbox</li>
-            <li>GitHub</li>
-            <li>Virtual Studio Code</li>
-          </ul>
-      </div>
-    </section>
-    <section id="projects">
-      <div class="full-width">
-        <div class="third-width">
-          <img src=".//img/A. Super Sticky Notes.JPG" alt="sticky note project preview" src>
-          <h3>Super Sticky Notes</h3> 
-            <p>A greenfield project utilizing ES6 and JSX, managing data flow, and manipulating the DOM to create an interactive sticky notes web app. It allows a user to add, edit, delete, and search for notes and to save notes on local storage. 
-            </p>
-            <p>Skills: ES6, JSX, Managing Data Flow, Manipulating the Dom</p>
-            <p>CodeSandbox, Components, Props, State, Local Storage</p>
-            <button src="https://otch5j.csb.app/">Live Page</button>
-        </div>
-        <div class="third-width">
-          <img src=".//img/B. Unplugged.JPG" alt="unplugged preview" src>
-          <h3>Unplugged</h3> 
-            <p>Unplugged is a three-page responsive website coded from a design comp with Flexbox. It adapts to mobile, tablet, and desktop screens. 
-            </p>
-            <p>Skills: HTML5, CSS3, Flexbox, Media Queries, Responsive Tyopography</p>
-            <p>Tools: Photoshop, Chrome Dev Tools, GitHub Pages, Text Editors</p>
-            <button src="https://jennademarco.github.io/project-unplugged/">Live Page</button>        </div>
-        <div class="third-width">
-          <img src=".//img/C. GitHub Repo Gallery.JPG" alt="GitHub Repo Gallery project preview" src>
-          <h3>GitHub Repo Gallery</h3> 
-            <p>GitHub Repo Gallery is a project that uses GitHub's API to pull data from my GitHub portfolio to create a gallery of repos. Visitors to the site can search repos as well as click on them to see more info and a link to the repo on GitHub.
-            </p>
-            <p>Skills; API</p>
-            <p>Tools: JavaScript, GitHub Pages, Manipulating the DOM</p>
-            <button src="https://jennademarco.github.io/github-repo-gallery/">Live Page</button>        </div>
-        <div class="half-width">
-          <img src=".//img/D. Guess the Word.JPG" alt="Guess the Word project preview" src>
-          <h3>Guess the Word Game</h3> 
-            <p>Guess the Word is a word game where players guess a word by entering one letter at a time. If the player guesses all the letters correctly before they use up their allotted guesses, they win!
-            </p>
-            <p>Skills: ES6, JSX, Managing Data Flow, Manipulating the DOM</p>
-            <p>Tools: JSON, GitHub Pages</p>
-            <button src="https://jennademarco.github.io/guess-the-word/">Live Page</button>        </div>
-        <div class="half-width">
-          <img src=".//img/E. Name Tag Generator.JPG" alt="Name Tag Generator project preview" src>
-          <h3>Name Tag Generator</h3> 
-            <p>Name Tag Generator allows a user to add and delete bulk name tags using functional components and ES6 modules. 
-            </p>
-            <p>Skills: ES6, JSX, Managing Data Flow, Manipulating the DOM</p>
-            <p>Tools: CodeSandbox</p>
-            <button src="https://6v99it.csb.app/">Live Page</button>        </div>
-      </div>
-    </section>
+      </section>
+      <article class="portfolio">
+        <section id="skills">
+          <div class="skills">
+            <h3 class="skills-header">Skills</h3>
+            <h4>Front End Developer Skills</h4>
+            <div class="language-wrapper">
+              <p class="skill">HTML5</p>
+              <p class="skill">CSS3</p>
+              <p class="skill">JavaScript</p>
+              <p class="skill">Responsive Web Development</p>
+              <p class="skill">ES6</p>
+              <p class="skill">JSX</p>
+            </div>
+            <h4>Front End Developer Tools</h4>
+            <div class="tool-wrapper">
+              <p class="tool">FTP Client</p>
+              <p class="tool">CodeSandbox</p>
+              <p class="tool">Github</p>
+              <p class="tool">Virtual Studio Code</p>
+            </div>
+          </div>
+        </section>
+        <section id="projects">
+          <div class="content-wrapper">
+            <h3 class="portfolio-header">Projects</h3>
+            <div class="portfolio-wrapper">
+              <div class="home-portfolio-piece">
+                <img src=".//img/A. Super Sticky Notes.JPG" alt="sticky note project preview" src>
+                <h4>Super Sticky Notes</h4> 
+                <p class="project-description">A greenfield project utilizing ES6 and JSX, managing data flow, and manipulating the DOM to create an interactive sticky notes web app. It allows a user to add, edit, delete, and search for notes and to save notes on local storage.</p>
+                <p><span>Skills: </span>ES6, JSX, Managing Data Flow, Manipulating the Dom</p>
+                <p><span>Tools: </span>CodeSandbox, Components, Props, State, Local Storage</p>
+                <button src="https://otch5j.csb.app/">Live Page</button>
+              </div>
+              <div class="home-portfolio-piece">
+                <img src=".//img/B. Unplugged.JPG" alt="unplugged preview" src>
+                <h4>Unplugged</h4>
+                <p class="project-description">Unplugged is a three-page responsive website coded from a design comp with Flexbox. It adapts to mobile, tablet, and desktop screens.</p>
+                <p><span>Skills: </span>HTML5, CSS3, Flexbox, Media Queries, Responsive Tyopography</p>
+                <p><span>Tools: </span>Photoshop, Chrome Dev Tools, GitHub Pages, Text Editors</p>
+                <button src="https://jennademarco.github.io/project-unplugged/">Live Page</button>
+              <div class="home-portfolio-piece">
+                <img src=".//img/C. GitHub Repo Gallery.JPG" alt="GitHub Repo Gallery project preview" src>
+                <h4>GitHub Repo Gallery</h4> 
+                <p class="project-description">GitHub Repo Gallery is a project that uses GitHub's API to pull data from my GitHub portfolio to create a gallery of repos. Visitors to the site can search repos as well as click on them to see more info and a link to the repo on GitHub.</p>
+                <p><span>Skills: </span>API</p>
+                <p><span>Tools: </span>JavaScript, GitHub Pages, Manipulating the DOM</p>
+                <button src="https://jennademarco.github.io/github-repo-gallery/">Live Page</button>
+              </div>
+              <div class="home-portfolio-piece">
+                <img src=".//img/D. Guess the Word.JPG" alt="Guess the Word project preview" src>
+                <h4>Guess the Word Game</h4>
+                <p class="project-description">Guess the Word is a word game where players guess a word by entering one letter at a time. If the player guesses all the letters correctly before they use up their allotted guesses, they win!</p>
+                <p><span>Skills: </span>ES6, JSX, Managing Data Flow, Manipulating the DOM</p>
+                <p><span>Tools: </span>JSON, GitHub Pages</p>
+                <button src="https://jennademarco.github.io/guess-the-word/">Live Page</button>
+              </div>
+              <div class="home-portfolio-piece">
+                <img src=".//img/E. Name Tag Generator.JPG" alt="Name Tag Generator project preview" src>
+                <h4>Name Tag Generator</h4> 
+                <p class="project-description">ame Tag Generator allows a user to add and delete bulk name tags using functional components and ES6 modules.</p>
+                <p><span>Skills: </span>ES6, JSX, Managing Data Flow, Manipulating the DOM</p>
+                <p><span>Tools: </span>CodeSandbox</p>
+                <button src="https://6v99it.csb.app/">Live Page</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
   </main> 
-    <footer id="contact">
-      <div class="content-wrapper">
-        <h3>Let's Connect</h3>  
-        <div class="contact-wrapper">
-            <div class="contact-info">
-              <h5 class="contact-title">Hire Me</h5>
-              <p>letsconnect@jennademarco.co</p>
-            </div>
-            <div class="contact-info follow-section">
-              <h5 class="contact-title">Follow Me</h5>
-                <p class="social-icons">
-                  <a href="https://www.linkedin.com/in/jennademarco/" target="_blank">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                  </a>
-                <p>
-                  <a href="https://github.com/jennademarco"target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                  </a>
-                </p>  
-            </div>
-            <div class="contact-info"></div>
-              <h5 class="contact-title">Meet Me</h5>
-              <p>Grand Rapids, MI</p>
-              <p>Let's Grab a Cup of Coffee!</p>
-            </div>
-          </div> 
-        <p>Copyright 2022 | Jenna DeMarco</p>
-      </div>
-    </footer>
+  <footer id="contact">
+    <div class="content-wrapper">
+      <h3>Let's Connect</h3>  
+      <div class="contact-wrapper">
+          <div class="contact-info">
+            <h5 class="contact-title">Hire Me</h5>
+            <p>letsconnect@jennademarco.co</p>
+          </div>
+          <div class="contact-info follow-section">
+            <h5 class="contact-title">Follow Me</h5>
+              <p class="social-icons">
+                <a href="https://www.linkedin.com/in/jennademarco/" target="_blank">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              <p>
+                <a href="https://github.com/jennademarco"target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </p>  
+          </div>
+          <div class="contact-info"></div>
+            <h5 class="contact-title">Meet Me</h5>
+            <p>Grand Rapids, MI</p>
+            <p>Let's Grab a Cup of Coffee!</p>
+          </div>
+        </div> 
+      <p>Copyright 2022 | Jenna DeMarco</p>
+    </div>
+  </footer>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
