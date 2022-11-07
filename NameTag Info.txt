@@ -1,0 +1,9 @@
+              <div class="home-portfolio-piece">
+                <img src=".//img/E. Name Tag Generator.JPG" alt="Name Tag Generator project preview" src>
+                <h4>Name Tag Generator</h4> 
+                <p class="project-description">ame Tag Generator allows a user to add and delete bulk name tags using functional components and ES6 modules.</p>
+                <p><span>Skills: </span>ES6, JSX, Managing Data Flow, Manipulating the DOM</p>
+                <p><span>Tools: </span>CodeSandbox</p>
+                <button><a href="
+                  "</button> a href="https://6v99it.csb.app/">Live Page</button>
+              </div>
