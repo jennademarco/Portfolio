@@ -375,6 +375,8 @@ header h2 {
   padding: .75rem 3.75rem;
   border-radius: 30px;
   color: #ffffff;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-link:hover {
@@ -408,7 +410,8 @@ header h2 {
 }
 
 #profile-image {
-  width: 90%;
+  width: 55%;
+  margin-top: 50px;
 }
 
 #about h3,
@@ -934,6 +937,7 @@ footer .social-icons li i {
   /*-----Portfolio-----*/
   .home-portfolio-piece {
     width: 30%;
+    padding: 0 50px;
   }
 
   /*-----Projects-----*/
