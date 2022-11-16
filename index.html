@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -34,127 +34,142 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-  <header> <!---The header text is in front of the picture.-->
+<!---The header text is in front of the picture.-->
+  <header> 
     <div class="content-wrapper"> 
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact" id="contact-link">Contact</a></li>
         </ul>   
       </nav>
-      <div class="home-title">
-        <h1>Hi there, I'm Jenna DeMarco!</h1>
-        <h2>I'm a Front End Developer who loves clean &amp; elegant code.</h2>
+      <div class="welcome">
+        <h1>Hello! I'm Jenna DeMarco.</h1>
+        <h2>I am a Front End Web Developer looking to do something meaningful in this world with my coding skills.</h2>
       </div>
     </div>
   </header>
+
   <main>
-    <article>
-      <section id="about">
+    <article class="portfolio">
+      <section id="projects">
         <div class="content-wrapper">
-          <div class="about-content-wrapper">
-            <figure>
-              <img src= ".//img/profile1.JPG" id="profile-img" alt="Jenna DeMarco profile picture"/>
-            </figure>
-            <div class="about-info">
-              <h3>A little bit about me.</h3>
-              <h2>I am a highly organized and efficient individual who likes systems and understanding how they work so that I can be creative and solve problems within them.</h2>
-              <p class="about-text"><br>I found myself drawn towards coding because of its structure and flow. I enjoy taking chaos and making it ordered and pleasing to the eye. I love stories—whether shared in person, in film, or in books. I also enjoy a good hike and exploring new places.</p>
+          <h3 class="portfolio-header">Projects</h3>
+          <div class="portfolio-wrapper">
+            <div class="home-portfolio-piece">
+              <figure>
+                <a href="https://otch5j.csb.app/" target="_blank"></a>
+              </figure>
+              <h4>Super Sticky Notes</h4> 
+              <p class="project-description">A greenfield project utilizing ES6 and JSX, managing data flow, and manipulating the DOM to create an interactive sticky notes web app. It allows a user to add, edit, delete, and search for notes and to save notes on local storage.</p>
+              <p><span>Skills: </span>ES6, JSX, Managing Data Flow, Manipulating the Dom</p>
+              <p><span>Tools: </span>CodeSandbox, Components, Props, State, Local Storage</p>
+              <a class="project-link" href="https://otch5j.csb.app/" target="_blank">Live Page</a>
+            </div>
+            <div class="home-portfolio-piece">
+              <figure>
+                <a href="https://jennademarco.github.io/project-unplugged/" target="_blank"></a>
+              </figure>
+              <h4>Unplugged</h4>
+              <p class="project-description">Unplugged is a three-page responsive website coded from a design comp with Flexbox. It adapts to mobile, tablet, and desktop screens.</p>
+              <p><span>Skills: </span>HTML5, CSS3, Flexbox, Media Queries, Responsive Tyopography</p>
+              <p><span>Tools: </span>Photoshop, Chrome Dev Tools, GitHub Pages, Text Editors</p>
+              <a class="project-link" href="https://jennademarco.github.io/project-unplugged/" target="_blank">Live Page</a>
+            <div class="home-portfolio-piece">
+              <figure>
+                <a href="https://jennademarco.github.io/github-repo-gallery/" target="_blank"></a>
+              </figure>
+              <h4>GitHub Repo Gallery</h4> 
+              <p class="project-description">GitHub Repo Gallery is a project that uses GitHub's API to pull data from my GitHub portfolio to create a gallery of repos. Visitors to the site can search repos as well as click on them to see more info and a link to the repo on GitHub.</p>
+              <p><span>Skills: </span>API</p>
+              <p><span>Tools: </span>JavaScript, GitHub Pages, Manipulating the DOM</p>
+              <a class="project-link" href="https://jennademarco.github.io/github-repo-gallery/" target="_blank">Live Page</a>
+            </div>
+            <div class="home-portfolio-piece">
+              <figure>
+                <a href="https://jennademarco.github.io/guess-the-word/" target="_blank"></a>
+              </figure>
+              <h4>Guess the Word Game</h4>
+              <p class="project-description">Guess the Word is a word game where players guess a word by entering one letter at a time. If the player guesses all the letters correctly before they use up their allotted guesses, they win!</p>
+              <p><span>Skills: </span>ES6, JSX, Managing Data Flow, Manipulating the DOM</p>
+              <p><span>Tools: </span>JSON, GitHub Pages</p>
+              <a class="project-link" href="https://jennademarco.github.io/guess-the-word/" target="_blank">Live Page</a>
             </div>
           </div>
         </div>
       </section>
-      <article class="portfolio">
-        <section id="skills">
-          <div class="skills">
-            <h3 class="skills-header">Skills</h3>
-            <h4>Front End Developer Skills</h4>
-            <div class="language-wrapper">
-              <p class="skill">HTML5</p>
-              <p class="skill">CSS3</p>
-              <p class="skill">JavaScript</p>
-              <p class="skill">Responsive Web Development</p>
-              <p class="skill">ES6</p>
-              <p class="skill">JSX</p>
-            </div>
-            <h4>Front End Developer Tools</h4>
-            <div class="tool-wrapper">
-              <p class="tool">FTP Client</p>
-              <p class="tool">CodeSandbox</p>
-              <p class="tool">Github</p>
-              <p class="tool">Virtual Studio Code</p>
-            </div>
+
+      <section id="skills">
+        <div class="content-wrapper">
+          <h3 class="skills-header">Skills</h3>
+          <h4>Front End Developer Skills</h4>
+          <div class="language-wrapper">
+            <p class="skill">HTML5</p>
+            <p class="skill">CSS3</p>
+            <p class="skill">JavaScript</p>
+            <p class="skill">Responsive Web Development</p>
+            <p class="skill">ES6</p>
+            <p class="skill">JSX</p>
           </div>
-        </section>
-        <section id="projects">
-          <div class="content-wrapper">
-          <h3 class="portfolio-header">Projects</h3>
-            <div class="portfolio-wrapper">
-              <div class="home-portfolio-piece">
-                <img src=".//img/A. Super Sticky Notes.JPG" alt="sticky note project preview" src>
-                <h4>Super Sticky Notes</h4> 
-                <p class="project-description">A greenfield project utilizing ES6 and JSX, managing data flow, and manipulating the DOM to create an interactive sticky notes web app. It allows a user to add, edit, delete, and search for notes and to save notes on local storage.</p>
-                <p><span>Skills: </span>ES6, JSX, Managing Data Flow, Manipulating the Dom</p>
-                <p><span>Tools: </span>CodeSandbox, Components, Props, State, Local Storage</p>
-                <button src="https://otch5j.csb.app/">Live Page</button>
-              </div>
-              <div class="home-portfolio-piece">
-                <img src=".//img/B. Unplugged.JPG" alt="unplugged preview" src>
-                <h4>Unplugged</h4>
-                <p class="project-description">Unplugged is a three-page responsive website coded from a design comp with Flexbox. It adapts to mobile, tablet, and desktop screens.</p>
-                <p><span>Skills: </span>HTML5, CSS3, Flexbox, Media Queries, Responsive Tyopography</p>
-                <p><span>Tools: </span>Photoshop, Chrome Dev Tools, GitHub Pages, Text Editors</p>
-                <button src="https://jennademarco.github.io/project-unplugged/">Live Page</button>
-              <div class="home-portfolio-piece">
-                <img src=".//img/C. GitHub Repo Gallery.JPG" alt="GitHub Repo Gallery project preview" src>
-                <h4>GitHub Repo Gallery</h4> 
-                <p class="project-description">GitHub Repo Gallery is a project that uses GitHub's API to pull data from my GitHub portfolio to create a gallery of repos. Visitors to the site can search repos as well as click on them to see more info and a link to the repo on GitHub.</p>
-                <p><span>Skills: </span>API</p>
-                <p><span>Tools: </span>JavaScript, GitHub Pages, Manipulating the DOM</p>
-                <button src="https://jennademarco.github.io/github-repo-gallery/">Live Page</button>
-              </div>
-              <div class="home-portfolio-piece">
-                <img src=".//img/D. Guess the Word.JPG" alt="Guess the Word project preview" src>
-                <h4>Guess the Word Game</h4>
-                <p class="project-description">Guess the Word is a word game where players guess a word by entering one letter at a time. If the player guesses all the letters correctly before they use up their allotted guesses, they win!</p>
-                <p><span>Skills: </span>ES6, JSX, Managing Data Flow, Manipulating the DOM</p>
-                <p><span>Tools: </span>JSON, GitHub Pages</p>
-                <button src="https://jennademarco.github.io/guess-the-word/">Live Page</button>
-              </div>
-            </div>
+          <h4>Front End Developer Tools</h4>
+          <div class="tool-wrapper">
+            <p class="tool">FTP Client</p>
+            <p class="tool">CodeSandbox</p>
+            <p class="tool">Github</p>
+            <p class="tool">Virtual Studio Code</p>
           </div>
-        </section>
-      </article>
+        </div>
+      </section>
+    </article>
+
+    <section id="about">
+      <div class="content-wrapper">
+        <div class="about-content-wrapper">
+          <figure>
+            <img src=".//img/profile1.JPG" alt id ="profile-image">
+          </figure>
+        <div class="about-info">
+          <h3>A little bit about me.</h3>
+          <h4>I am a highly organized and efficient individual who likes systems and understanding how they work so that I can be creative and solve problems within them.</h4>
+          <p class="about-text">I found myself drawn towards coding because of its structure and flow. I enjoy taking chaos and making it ordered and pleasing to the eye. Additionally, I love stories—whether shared in person, in film, or in books. I also enjoy a good hike and exploring new places.</p>
+        </div>
+        </div>
+      </div>
+    </section>
   </main> 
+
   <footer id="contact">
     <div class="content-wrapper">
       <h3>Let's Connect</h3>  
       <div class="contact-wrapper">
-          <div class="contact-info">
-            <h5 class="contact-title">Hire Me</h5>
-            <p>letsconnect@jennademarco.co</p>
-          </div>
-          <div class="contact-info follow-section">
-            <h5 class="contact-title">Follow Me</h5>
-              <p class="social-icons">
+        <div class="contact-info">
+          <h5 class="contact-title">Hire Me</h5>
+          <p>letsconnect@jennademarco.co</p>
+        </div>
+        <div class="contact-info follow-section">
+          <h5 class="contact-title">Follow Me</h5>
+            <ul class="social-icons">
+              <li>
                 <a href="https://www.linkedin.com/in/jennademarco/" target="_blank">
                   <i class="fa-brands fa-linkedin-in"></i>
                 </a>
-              <p>
-                <a href="https://github.com/jennademarco"target="_blank">
+              </li>
+              <li>
+                <a href="https://github.com/jennademarco" target="_blank">
                   <i class="fa-brands fa-github"></i>
                 </a>
-              </p>  
-          </div>
-          <div class="contact-info"></div>
-            <h5 class="contact-title">Meet Me</h5>
-            <p>Grand Rapids, MI</p>
-            <p>Let's Grab a Cup of Coffee!</p>
-          </div>
-        </div> 
-      <p>Copyright 2022 | Jenna DeMarco</p>
+              </li>
+            </ul>  
+        </div>
+        <div class="contact-info">
+          <h5 class="contact-title">Meet Me</h5>
+          <p>Grand Rapids, MI</p>
+          <p>Let's Grab a Warm Beverage!</p>
+        </div>
+        <p>Copyright 2022 | Jenna DeMarco</p>
+      </div>
     </div>
   </footer>
 
