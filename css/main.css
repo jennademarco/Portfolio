@@ -111,12 +111,12 @@ ol {
 }
 
 a {
-  color: #243e36;
+  color: #040100;
   text-decoration: none;
 }
 
 h1 {
-  color: #243e36;
+  color: #040100;
   font-family: "Alike", serif;
   font-size: 1.75rem;
   line-height: 1.5;
@@ -124,7 +124,7 @@ h1 {
 }
 
 h2 {
-  color: #243e36;
+  color: #040100;
   font-family: "Alike", serif;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -154,7 +154,7 @@ h5 {
 
 .about-info h4,
 .contact-title {
-  font-weight: 400;
+  font-weight: 900;
 }
 
 h3,
@@ -308,14 +308,21 @@ header {
 header nav ul li {
   font-size: .75rem;
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight: bolder;
   text-transform: uppercase;
 }
 
 nav #contact-link {
   background-color: #7ca982;
+  font-size: 1.15em;
   padding: 10px 10px;
   border-radius: 30px;
+}
+
+nav #about-link,
+nav #skills-link,
+nav #projects-link {
+  font-size: 1.15em;
 }
 
 nav ul {
@@ -375,7 +382,7 @@ header h2 {
   background-color: #243e36;
   padding: .75rem 3.75rem;
   border-radius: 30px;
-  color: #ffffff;
+  color: #040100;
   justify-content: center;
   align-items: center;
 }
@@ -425,6 +432,7 @@ header h2 {
 
 footer {
   background-color: #7ca982;
+  color: #040100;
 }
 
 footer .contact-wrapper {
@@ -467,7 +475,7 @@ footer .social-icons li {
 
 footer .social-icons li i {
   font-size: 1.875rem;
-  color: #243e36;
+  color: #040100;
 }
 
 /* ==========================================================================
