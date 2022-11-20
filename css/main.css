@@ -458,7 +458,8 @@ footer .follow-section {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin: 0 25%;
 }
 
 footer ul {
