@@ -362,6 +362,7 @@ header h2 {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .home-portfolio-piece h4 {
@@ -736,6 +737,12 @@ footer .social-icons li i {
     justify-content: center;
   }
 
+    /*-----Portfolio-----*/
+    .home-portfolio-piece {
+      width: 30%;
+      padding: 0 50px;
+    }
+
   .project-description {
     width: 95%;
   }
@@ -957,12 +964,6 @@ footer .social-icons li i {
 
   .welcome h2 {
     max-width: 70%;
-  }
-
-  /*-----Portfolio-----*/
-  .home-portfolio-piece {
-    width: 30%;
-    padding: 0 50px;
   }
 
   /*-----Projects-----*/
