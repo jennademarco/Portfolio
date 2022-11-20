@@ -733,7 +733,7 @@ footer .social-icons li i {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .project-description {
