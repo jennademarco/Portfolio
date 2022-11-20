@@ -428,8 +428,14 @@
     color: #243e36;
   }
 
+  .about-info em {
+    font-weight: 900;
+  }
 
-
+  .about-info h4 {
+    font-weight: lighter;
+  }
+  
   /*-------------Base Footer Styles-------------*/
   
   footer {
@@ -460,8 +466,7 @@
   
   footer .social-icons {
     display: flex;
-    justify-content: space-evenly;
-    margin: 0 50px;
+    justify-content: space-around;
   }
   
   footer ul {
@@ -724,7 +729,7 @@
       display: flex;
       flex-flow: row wrap;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
     }
   
     .project-description {
@@ -763,6 +768,10 @@
   
     .about-info h4 {
       text-align: left;
+    }
+
+    span {
+
     }
   
     /*-----Footer-----*/
