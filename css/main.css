@@ -301,8 +301,7 @@ figure {
 /*----------------Base Header Styles----------------*/
 
 header {
-  background: url(../img/pexels-pixabay-434337.jpg) center no-repeat #333;
-  background-size: cover;
+  background-color: #7ca982;
 }
 
 header nav ul li {
@@ -313,7 +312,7 @@ header nav ul li {
 }
 
 nav #contact-link {
-  background-color: #7ca982;
+  background-color: #e4f8e7;
   font-size: 1.15em;
   padding: 10px 10px;
   border-radius: 30px;
@@ -426,6 +425,14 @@ header h2 {
 #about h4,
 #about p {
   color: #243e36;
+}
+
+.about-info h4 {
+  font-weight: lighter;
+}
+
+.about-info h4 em {
+  font-weight: 900;
 }
 
 /*-------------Base Footer Styles-------------*/
@@ -569,7 +576,11 @@ footer .social-icons li i {
 
 @media only screen and (min-width: 768px) {
   /*---------------Tablet Styles here---------------*/
-  
+  header {
+    background: url(../img/pexels-pixabay-434337.jpg) center no-repeat #333;
+    background-size: cover;
+  }
+
   /*-----General styles-----*/
   .content-wrapper {
     max-width: 640%;
@@ -608,6 +619,10 @@ footer .social-icons li i {
 
   nav {
     margin: 0 0 80px 0;
+  }
+
+  nav #contact-link {
+    background-color: #7ca982;
   }
 
   /*-----Projects-----*/
