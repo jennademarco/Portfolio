@@ -731,17 +731,9 @@ footer .social-icons li i {
   }
 
   .home-portfolio-piece {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
+    width: 50%;
+    padding: 0 50px;
   }
-
-    /*-----Portfolio-----*/
-    .home-portfolio-piece {
-      width: 30%;
-      padding: 0 50px;
-    }
 
   .project-description {
     width: 95%;
@@ -970,6 +962,11 @@ footer .social-icons li i {
   .skill,
   .tool {
     width: 30%;
+  }
+
+  .home-portfolio-piece {
+    width: 30%;
+    padding: 0 50px;
   }
 
   /*-----About-----*/
